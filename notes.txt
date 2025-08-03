@@ -1,0 +1,13 @@
+for default java, first compile the java file using javac command, then just run java HelloWorld
+
+methods in java can only return 1 data value
+
+method overloading = methods having the same name but different params
+
+constructor overloading is possible as well
+
+to overcome shadowing variable, use syntax this
+
+if there is a non default constructor (Manager(param){}) then the child must also declare a constructor and if there is more than 1, the child only need to call 1 constructor
+
+Parent 
