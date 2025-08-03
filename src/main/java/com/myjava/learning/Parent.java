@@ -9,8 +9,8 @@ class Parent {
 }
 
 class Child extends Parent {
-    String name;
+    // String name;
     void doIt() {
-        System.out.println("From Child");
+        System.out.println("From Child " + super.name);
     }
 }

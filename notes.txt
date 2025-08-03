@@ -10,4 +10,15 @@ to overcome shadowing variable, use syntax this
 
 if there is a non default constructor (Manager(param){}) then the child must also declare a constructor and if there is more than 1, the child only need to call 1 constructor
 
-Parent 
+about access level (access modifier)
+modifier    class   package     subclass    world
+public      y       y           y           y
+protected   y       y           y           n
+no mod      y       y           n           n
+private     y       n           n           n
+
+1 public class 1 java file and the name of public class must be the same w/ the file name
+
+interface can implement / extend more than 1 interface
+
+default method in interface is used to make the method to be override optional for the child class
