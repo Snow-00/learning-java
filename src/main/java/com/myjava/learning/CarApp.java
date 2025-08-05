@@ -1,7 +1,7 @@
 package com.myjava.learning;
 
-import com.learning.javapack.Avanza;
-import com.learning.javapack.Car;
+import com.myjava.javapack.Avanza;
+import com.myjava.javapack.Car;
 
 public class CarApp {
     public static void carMain(String[] args) {

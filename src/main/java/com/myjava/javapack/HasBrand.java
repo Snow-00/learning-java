@@ -1,4 +1,4 @@
-package com.learning.javapack;
+package com.myjava.javapack;
 
 public interface HasBrand {
     String getBrand();

@@ -1,4 +1,4 @@
-package com.learning.javapack;
+package com.myjava.javapack;
 
 // public class Avanza implements Car, IsMaintenance {
 public class Avanza implements Car {

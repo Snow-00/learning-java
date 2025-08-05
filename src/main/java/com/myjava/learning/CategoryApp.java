@@ -1,6 +1,6 @@
 package com.myjava.learning;
 
-import com.learning.javapack.Category;
+import com.myjava.javapack.Category;
 
 public class CategoryApp {
     public static void catMain(String[] args) {

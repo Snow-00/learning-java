@@ -1,6 +1,6 @@
 package com.myjava.learning;
 
-import com.learning.javapack.City;
+import com.myjava.javapack.City;
 
 public class LocationApp {
     public static void locationMain(String[] args) {

@@ -1,4 +1,4 @@
-package com.learning.javapack;
+package com.myjava.javapack;
 
 public interface Car extends HasBrand, IsMaintenance {
     // default method in interface is public abstract

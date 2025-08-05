@@ -22,3 +22,10 @@ private     y       n           n           n
 interface can implement / extend more than 1 interface
 
 default method in interface is used to make the method to be override optional for the child class
+
+in java == only works for primitive data, for non primitive data (object, string included) it compares the memory reference, not the value itself, to overcome this use equals method
+
+final class = the class can't be inherited
+final method = method can't be overrided
+
+static class can only for inner class
