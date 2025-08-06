@@ -3,7 +3,7 @@ package com.myjava.learning;
 import com.myjava.javapack.LoginRequest;
 
 public class RecordApp {
-    public static void main(String[] args) {
+    public static void recordMain(String[] args) {
         LoginRequest loginRequest = new LoginRequest("Pak", "Eko");
 
         System.out.println(loginRequest);
