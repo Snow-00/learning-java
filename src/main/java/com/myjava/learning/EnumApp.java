@@ -4,7 +4,7 @@ import com.myjava.javapack.Customer;
 import com.myjava.javapack.Level;
 
 public class EnumApp {
-    public static void main(String[] args) {
+    public static void enumMain(String[] args) {
         Customer customer = new Customer();
         customer.setName("gaag");
         customer.setLevel(Level.PREMIUM);
