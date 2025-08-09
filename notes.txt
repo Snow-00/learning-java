@@ -29,3 +29,5 @@ final class = the class can't be inherited
 final method = method can't be overrided
 
 static class can only for inner class
+
+file reader reads from the top dir in project

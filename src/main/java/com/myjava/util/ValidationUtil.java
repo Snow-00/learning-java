@@ -1,5 +1,8 @@
 package com.myjava.util;
 
+import java.lang.reflect.Field;
+
+import com.myjava.annotation.NotBlank;
 import com.myjava.error.BlankException;
 import com.myjava.error.ValidationException;
 import com.myjava.javapack.LoginRequest;
@@ -26,6 +29,28 @@ public class ValidationUtil {
             throw new NullPointerException("Password is null");
         } else if (loginRequest.password().isBlank()) {
             throw new BlankException("Password is blank");
+        }
+    }
+
+    public static void validationReflection(Object object) {
+        Class aClass = object.getClass();
+        Field[] fields = aClass.getDeclaredFields();
+
+        for (var field : fields) {
+            field.setAccessible(true);
+
+            if (field.getAnnotation(NotBlank.class) != null) {
+                // validated
+                try {
+                    String value = (String) field.get(object);
+
+                    if (value == null || value.isBlank()) {
+                        throw new BlankException("Field " + field.getName() + " is blank");
+                    }
+                } catch (IllegalAccessException e) {
+                    System.out.println("Tidak bisa akses field " + field.getName());
+                }
+            }
         }
     }
 }
