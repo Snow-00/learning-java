@@ -3,7 +3,7 @@ package com.myjava.learning;
 import com.myjava.javapack.MyData;
 
 public class ContravariantApp {
-    public static void main(String[] args) {
+    public static void contraMain(String[] args) {
         MyData<Object> objMyData = new MyData<Object>("args");
         objMyData.setData(1000);
         MyData<? super String> myData = objMyData;
