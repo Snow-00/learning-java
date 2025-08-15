@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ImmutableApp {
-    public static void main(String[] args) {
+    public static void immutableMain(String[] args) {
         List<String> one = Collections.singletonList("satu");
         List<String> empty = Collections.emptyList();
         List<String> mutable = new ArrayList<>();
