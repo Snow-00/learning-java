@@ -4,7 +4,7 @@ import java.util.NavigableMap;
 import java.util.TreeMap;
 
 public class NavigableMapApp {
-    public static void main(String[] args) {
+    public static void navigableMain(String[] args) {
         NavigableMap<String, String> map = new TreeMap<>();
         
         map.put("null", "gag2");
