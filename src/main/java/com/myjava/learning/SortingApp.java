@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SortingApp {
-    public static void main(String[] args) {
+    public static void sortingMain(String[] args) {
         List<String> list = new ArrayList<>();
         list.addAll(List.of("daf", "rud", "boo"));
 
