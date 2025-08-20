@@ -5,7 +5,7 @@ import java.util.Queue;
 import com.myjava.Collection.SingleQueue;
 
 public class SingleQueueApp {
-    public static void main(String[] args) {
+    public static void singleMain(String[] args) {
         Queue<String> queue = new SingleQueue<>();
         System.out.println(queue.size());
 
